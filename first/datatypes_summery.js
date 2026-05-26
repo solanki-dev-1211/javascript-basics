@@ -48,3 +48,30 @@ const myFunction = function(){
 
 }
 console.log(typeof myFunction)
+
+
+// memory 
+
+// 2 type 
+// stake memory(primitive use to stake) --- heap memory(non primitive)
+
+let myYoutubeName="dex gaming"
+
+let anotheName= myYoutubeName
+anotheName="DE life"
+
+console.log(myYoutubeName)
+console.log(anotheName) 
+//heap 
+let userOne={
+    email:"googles.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="dex@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
