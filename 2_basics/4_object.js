@@ -55,3 +55,23 @@ console.log(Object.values(tinderUser));
 // check property are avaleble or ot 
 console.log(Object.entries.hasOwnProperty('name'));
 
+
+// d structuring
+const cource={
+    courceName:"js",
+    price:"999",
+    courceInstrucure:"hitesh"
+}
+
+
+const {courceInstrucure:instructure}=cource
+console.log(instructure);
+
+
+// api call json formate 
+// {
+//     "cource":"js_api",
+//     "price":"1234",
+//     "faculty":"dex"
+
+// }
